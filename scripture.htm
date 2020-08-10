@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/transitional.dtd">
+
+<html xmlns="http://www/w3/org/TR/xhtml1">
+<head>
+	<title>Scripture Mastery</title>
+	<meta name="Author" content="Ben Holladay" />
+	<meta name="AuthorEmail" content="bwholladay@gmail.com" />
+	<meta name="Date" content="31-May-2018" />
+	<meta name="Language" content="en" />
+	<meta name="Subject" content="LDS Seminary Scripture Mastery" />
+	<meta name="KeyWords" content="scripture mastery; seminary; scripture; study help; lds; latter-day saint" />
+	<meta name="Description" content="Feeling up to a little scripture mastery challenge?" />
+	<script language="javascript" src="./js/initot.js"></script>
+	<script language="javascript" src="./js/initnt.js"></script>
+	<script language="javascript" src="./js/initbom.js"></script>
+	<script language="javascript" src="./js/initch.js"></script>
+	<script language="javascript" src="./js/functs.js"></script>
+	<script language="javascript" src="./js/init.js"></script>
+	<link rel='stylesheet' type='text/css' href='./css/main.css' />
+</head>
+<body>
+	<form name="ScrTest" action="./default.htm" method="post">
+		<h1 class='pageTitle'><script>document.write(titleBook, " - ", titleHint);</script></h1>
+		Can you recognize a scripture by its <script>document.write(titleHint.toLowerCase());</script>?  Press <i><b>GO!</b></i> to begin.
+		<table border=0 width=580>
+			<tr>
+				<td width="140"><img border="0" height="1" src="./img/spacer.gif" width="140" /></td>
+				<td width="300"><img border="0" height="1" src="./img/spacer.gif" width="300" /></td>
+				<td width="140"><img border="0" height="1" src="./img/spacer.gif" width="140" /></td>
+			</tr>
+			<tr>
+				<td colspan="3" class="ready">Ready for your clue?&nbsp;&nbsp;&nbsp;
+					<input type="button" class="go" name="Go" value="GO!" onclick="showClue()" /></td>
+			</tr>
+			<tr>
+				<td colspan="3" name="Clue" class="clue" id="clueBlock">
+					Click on GO to start!
+				</td>
+			</tr>
+			<tr>
+				<td class="odd" id="s0"><input type="radio" name="S1" onclick="displayIt(0)" value="0" /></td>
+				<td rowspan=13 align="center" class="answer" name="Answer" id="answerBlock">
+					Click on GO to start!
+				</td>
+				<td class="odd" id="s13"><input type="radio" name="S1" onclick="displayIt(13)" value="13" /></td>
+			</tr>
+			<tr>
+				<td class="even" id="s1"><input type="radio" name="S1" onclick="displayIt(1)" value="1" /></td>
+				<td class="even" id="s14"><input type="radio" name="S1" onclick="displayIt(14)" value="14" /></td>
+			</tr>
+			<tr>
+				<td class="odd" id="s2"><input type="radio" name="S1" onclick="displayIt(2)" value="2" /></td>
+				<td class="odd" id="s15"><input type="radio" name="S1" onclick="displayIt(15)" value="15" /></td>
+			</tr>
+			<tr>
+				<td class="even" id="s3"><input type="radio" name="S1" onclick="displayIt(3)" value="3" /></td>
+				<td class="even" id="s16"><input type="radio" name="S1" onclick="displayIt(16)" value="16" /></td>
+			</tr>
+			<tr>
+				<td class="odd" id="s4"><input type="radio" name="S1" onclick="displayIt(4)" value="4" /></td>
+				<td class="odd" id="s17"><input type="radio" name="S1" onclick="displayIt(17)" value="17" /></td>
+			</tr>
+			<tr>
+				<td class="even" id="s5"><input type="radio" name="S1" onclick="displayIt(5)" value="5" /></td>
+				<td class="even" id="s18"><input type="radio" name="S1" onclick="displayIt(18)" value="18"></td>
+			</tr>
+			<tr>
+				<td class="odd" id="s6"><input type="radio" name="S1" onclick="displayIt(6)" value="6" /></td>
+				<td class="odd" id="s19"><input type="radio" name="S1" onclick="displayIt(19)" value="19" /></td>
+			</tr>
+			<tr>
+				<td class="even" id="s7"><input type="radio" name="S1" onclick="displayIt(7)" value="7" /></td>
+				<td class="even" id="s20"><input type="radio" name="S1" onclick="displayIt(20)" value="20" /></td>
+			</tr>
+			<tr>
+				<td class="odd" id="s8"><input type="radio" name="S1" onclick="displayIt(8)" value="8" /></td>
+				<td class="odd" id="s21"><input type="radio" name="S1" onclick="displayIt(21)" value="21" /></td>
+			</tr>
+			<tr>
+				<td class="even" id="s9"><input type="radio" name="S1" onclick="displayIt(9)" value="9" /></td>
+				<td class="even" id="s22"><input type="radio" name="S1" onclick="displayIt(22)" value="22" /></td>
+			</tr>
+			<tr>
+				<td class="odd" id="s10"><input type="radio" name="S1" onclick="displayIt(10)" value="10" /></td>
+				<td class="odd" id="s23"><input type="radio" name="S1" onclick="displayIt(23)" value="23" /></td>
+			</tr>
+			<tr>
+				<td class="even" id="s11"><input type="radio" name="S1" onclick="displayIt(11)" value="11" /></td>
+				<td class="even" id="s24"><input type="radio" name="S1" onclick="displayIt(24)" value="24" /></td>
+			</tr>
+			<tr>
+				<td class="odd" id="s12"><input type="radio" name="S1" onclick="displayIt(12)" value="12" /></td>
+				<th class="odd"><script>document.write(titleHint);</script></th>
+			</tr>
+			<tr>
+				<td colspan="3" width=580><img border=0 height=1 src="./img/spacer.gif" width=580></td>
+			</tr>
+			<tr>
+				<td colspan="3" align="center">
+					<input type="button" name="Submit" class="return" value="Return to Main Menu" onclick="returnHome()" />&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" align="left">
+					<a href="Mailto:&#098;&#119;&#104;olladay@gmail&#046;com"><img align="center" border=0 src="./img/working.gif"></a>
+					<span class="copy">&copy; 2000 <a href="Mailto:&#098;&#119;&#104;olladay@gmail&#046;com">Ben Holladay</a> - Pragmatic Web Creations for the Soul</span>
+				</td>
+			</tr>
+		</table>
+	</form>
+	<script>
+		loadReferences();
+	</script>
+</body>
+</html>

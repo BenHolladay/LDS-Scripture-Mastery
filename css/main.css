@@ -1,0 +1,78 @@
+body {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 9pt;
+	background-color: #ffffff;
+}
+
+h1 {
+	font-size: 20pt;
+	color: #2051a9;
+	font-style: italic;
+	font-weight: lighter;
+}
+h2 {
+	color: #2051a9;
+	font-style: italic;
+	font-weight: lighter;
+}
+
+hr {
+	 color: #800000;
+	 background-color: #2051a9;
+	 height: 2px;
+}
+
+input[type=button] {
+	width: 120px;
+}
+
+input[type=button].go {
+	width: 450px;
+}
+
+input[type=button].return {
+	width: 160px;
+}
+
+td.ready {
+	color: #2051a9;
+	font-style: italic;
+}
+td.clue {
+	border: 1px solid #6495ed;
+	text-align: left;
+	vertical-align: top;
+	height: 60px;
+}
+td.answer {
+	background-color: #ffffff;
+	border: 1px solid #6495ed;
+	text-align: left;
+	vertical-align: top;
+}
+
+td.odd {
+	background-color: #6495ed;
+	color: #ffffff;
+	font-size: 9pt;
+	height: 20px;
+	white-space: nowrap;
+}
+td.even {
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 9pt;
+	height: 20px;
+	white-space: nowrap;
+}
+th.odd {
+	background-color: #2051a9;
+	color: #ffffff;
+	font-size: 9pt;
+}
+
+span.copy {
+	font-size: 8pt;
+	font-style: italic;
+	color: #000000;
+}
