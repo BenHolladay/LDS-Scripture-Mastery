@@ -4,7 +4,6 @@ body {
 }
 
 h1 {
-	font-size: 20pt;
 	color: #2051a9;
 	font-style: italic;
 	font-weight: lighter;
@@ -68,7 +67,6 @@ th.odd {
 }
 
 span.copy {
-	font-size: 8pt;
 	font-style: italic;
 	color: #000000;
 }
