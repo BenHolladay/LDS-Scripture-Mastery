@@ -1,6 +1,5 @@
 body {
 	font-family: Arial, Verdana, Helvetica, sans-serif;
-	font-size: 9pt;
 	background-color: #ffffff;
 }
 
@@ -54,21 +53,18 @@ td.answer {
 td.odd {
 	background-color: #6495ed;
 	color: #ffffff;
-	font-size: 9pt;
 	height: 20px;
 	white-space: nowrap;
 }
 td.even {
 	background-color: #000000;
 	color: #ffffff;
-	font-size: 9pt;
 	height: 20px;
 	white-space: nowrap;
 }
 th.odd {
 	background-color: #2051a9;
 	color: #ffffff;
-	font-size: 9pt;
 }
 
 span.copy {
