@@ -168,7 +168,7 @@
 			"Recognize that all good comes of Christ and all evil comes of the devil.  Seek to avoid rationalization in your life.",
 			"Recognize Good");
 		S[23] = new Scripture("Moroni 7:45",
-			"And charity suffereth long, and is kind, and envieth not, and is not puffed up, seeketh not her own, is not easily provoked, thinketh no evil, and rejoiceth not in iniquity but rejoiceth in the truth, beareth all�things, believeth all things, hopeth all things, endureth all things.",
+			"And charity suffereth long, and is kind, and envieth not, and is not puffed up, seeketh not her own, is not easily provoked, thinketh no evil, and rejoiceth not in iniquity but rejoiceth in the truth, beareth all things, believeth all things, hopeth all things, endureth all things.",
 			"After the Nephite nation was destroyed, Moroni recorded some important teachings of his father, Mormon.",
 			"Charity is an attribute essential to salvation. It is composed of patience, kindness, thoughtfulness, unselfishness, love for fellowmen, cleanliness, and endurance.",
 			"Help a new convert learn the importance of charity and ways to develop charitable attributes.",
