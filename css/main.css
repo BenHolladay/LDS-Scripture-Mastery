@@ -22,12 +22,10 @@ hr {
 
 input[type=button] {
 	width: 180px;
-	font-size: larger;
 }
 
 input[type=button].go {
 	width: 450px;
-	font-size: larger;
 }
 
 input[type=button].return {
@@ -42,7 +40,6 @@ td.clue {
 	border: 1px solid #6495ed;
 	text-align: left;
 	vertical-align: top;
-	height: 60px;
 }
 td.answer {
 	background-color: #ffffff;
@@ -54,13 +51,11 @@ td.answer {
 td.odd {
 	background-color: #6495ed;
 	color: #ffffff;
-	height: 20px;
 	white-space: nowrap;
 }
 td.even {
 	background-color: #000000;
 	color: #ffffff;
-	height: 20px;
 	white-space: nowrap;
 }
 th.odd {
