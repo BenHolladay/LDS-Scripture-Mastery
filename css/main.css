@@ -30,7 +30,7 @@ input[type=button].go {
 }
 
 input[type=button].return {
-	width: 200px;
+	width: 90%;
 }
 
 td.ready {
@@ -53,11 +53,13 @@ td.odd {
 	background-color: #6495ed;
 	color: #ffffff;
 	white-space: nowrap;
+	font-size: 24px;
 }
 td.even {
 	background-color: #000000;
 	color: #ffffff;
 	white-space: nowrap;
+	font-size: 24px;
 }
 th.odd {
 	background-color: #2051a9;
