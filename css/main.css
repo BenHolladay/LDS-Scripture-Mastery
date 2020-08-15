@@ -53,13 +53,13 @@ td.odd {
 	background-color: #6495ed;
 	color: #ffffff;
 	white-space: nowrap;
-	font-size: 24px;
+	font-size: 30px;
 }
 td.even {
 	background-color: #000000;
 	color: #ffffff;
 	white-space: nowrap;
-	font-size: 24px;
+	font-size: 30px;
 }
 th.odd {
 	background-color: #2051a9;
