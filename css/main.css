@@ -30,7 +30,7 @@ input[type=button].go {
 }
 
 input[type=button].return {
-	width: 90%;
+	width: 600px;
 }
 
 td.ready {
