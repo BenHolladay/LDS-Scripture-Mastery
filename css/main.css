@@ -22,6 +22,7 @@ hr {
 
 input[type=button] {
 	width: 200px;
+	font-size: larger;
 }
 
 input[type=button].go {
