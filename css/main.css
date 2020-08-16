@@ -27,7 +27,7 @@ input[type=button] {
 }
 
 input[type=button].go {
-	width: 450px;
+	width: 600px;
 }
 
 input[type=button].return {
