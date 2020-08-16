@@ -68,8 +68,12 @@ th.odd {
 	color: #ffffff;
 }
 
+span.scripture {
+	font-size: 14pt;
+}
+
 span.copy {
 	font-style: italic;
-	font-size: 16pt;
+	font-size: 14pt;
 	color: #000000;
 }
