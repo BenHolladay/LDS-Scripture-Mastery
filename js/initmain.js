@@ -1,7 +1,7 @@
 /* ************************************
 	Author:			Ben Holladay
 	AuthorEmail:	bwholladay@gmail.com
-	Ward:			Cary 1st Ward, Apex North Carolina Stake
+	Ward:			Morrisville Ward, Apex North Carolina Stake
 	Date:			2018-May
  * ************************************/
 	var numOfScripts = 8;				// the number of scriptures
@@ -34,5 +34,5 @@
 	function showScripture()
 	{
 		scriptNum = Math.floor(Math.random() * numOfScripts);
-		document.write("<font size='-1'><i>" + S[scriptNum].text + "</i><br /><img SRC='img/spacer.gif' width='300' height='1' border='0' />-- " + S[scriptNum].ref) + "</font>";
+		document.write("<font size='14pt'><i>" + S[scriptNum].text + "</i><br /><img SRC='img/spacer.gif' width='300' height='1' border='0' />-- " + S[scriptNum].ref) + "</font>";
 	}
