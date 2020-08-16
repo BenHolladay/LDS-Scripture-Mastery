@@ -1,7 +1,7 @@
 /* ************************************
 	Author:			Ben Holladay
 	AuthorEmail:	bwholladay@gmail.com
-	Ward:			Cary 1st Ward, Apex North Carolina Stake
+	Ward:			Morrisville Ward, Apex North Carolina Stake
 	Date:			2018-May
  * ************************************/
 function initializeNT()	{
