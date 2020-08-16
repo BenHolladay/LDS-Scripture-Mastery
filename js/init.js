@@ -1,6 +1,7 @@
 /* ************************************
 	Author:			Ben Holladay
 	AuthorEmail:	bwholladay@gmail.com
+	Ward:			Morrisville Ward, Apex North Carolina Stake
 	Date:			2018-May
  * ************************************/
 // global variables
