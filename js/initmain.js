@@ -34,5 +34,5 @@
 	function showScripture()
 	{
 		scriptNum = Math.floor(Math.random() * numOfScripts);
-		document.write("<font size='14pt'><i>" + S[scriptNum].text + "</i><br /><img SRC='img/spacer.gif' width='300' height='1' border='0' />-- " + S[scriptNum].ref) + "</font>";
+		document.write("<font size='10pt'><i>" + S[scriptNum].text + "</i><br /><img SRC='img/spacer.gif' width='300' height='1' border='0' />-- " + S[scriptNum].ref) + "</font>";
 	}
