@@ -53,12 +53,14 @@ td.answer {
 }
 
 td.odd {
+	height: 60px;
 	background-color: #6495ed;
 	color: #ffffff;
 	white-space: nowrap;
 	font-size: 30px;
 }
 td.even {
+	height: 60px;
 	background-color: #000000;
 	color: #ffffff;
 	white-space: nowrap;
