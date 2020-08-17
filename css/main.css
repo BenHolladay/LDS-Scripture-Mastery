@@ -25,16 +25,19 @@ input[type=button] {
 	width: 220px;
 	font-size: 36px;
 	cursor: pointer;
+	border-radius: 25px;
 }
 
 input[type=button].go {
 	width: 600px;
 	cursor: pointer;
+	border-radius: 25px;
 }
 
 input[type=button].return {
 	width: 600px;
 	cursor: pointer;
+	border-radius: 25px;
 }
 
 td.ready {
@@ -62,6 +65,7 @@ td.odd {
 	white-space: nowrap;
 	font-size: 30px;
 	cursor: pointer;
+	border-radius: 25px;
 }
 td.even {
 	height: 60px;
@@ -70,6 +74,7 @@ td.even {
 	white-space: nowrap;
 	font-size: 30px;
 	cursor: pointer;
+	border-radius: 25px;
 }
 th.odd {
 	background-color: #2051a9;
