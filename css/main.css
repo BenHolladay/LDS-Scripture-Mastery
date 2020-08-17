@@ -24,14 +24,17 @@ hr {
 input[type=button] {
 	width: 220px;
 	font-size: 36px;
+	cursor: pointer;
 }
 
 input[type=button].go {
 	width: 600px;
+	cursor: pointer;
 }
 
 input[type=button].return {
 	width: 600px;
+	cursor: pointer;
 }
 
 td.ready {
@@ -58,6 +61,7 @@ td.odd {
 	color: #ffffff;
 	white-space: nowrap;
 	font-size: 30px;
+	cursor: pointer;
 }
 td.even {
 	height: 60px;
@@ -65,6 +69,7 @@ td.even {
 	color: #ffffff;
 	white-space: nowrap;
 	font-size: 30px;
+	cursor: pointer;
 }
 th.odd {
 	background-color: #2051a9;
