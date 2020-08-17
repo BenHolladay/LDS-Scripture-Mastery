@@ -1,8 +1,8 @@
 /* ************************************
-	Author:			Ben Holladay
+	Author:		Ben Holladay
 	AuthorEmail:	bwholladay@gmail.com
-	Ward:			Morrisville Ward, Apex North Carolina Stake
-	Date:			2018-May
+	Ward:		Morrisville Ward, Apex North Carolina Stake
+	Date:		2018-May
  * ************************************/
 var scriptNum = -1;	// the scripture index
 var ansString = "";	// answer string displayed in the answer textarea
@@ -63,8 +63,16 @@ function showRef(choice) {
 
 function displayIt(choice) {
 	var answerBlock = document.getElementById("answerBlock");
+	var radButton = document.getElementsByName("S1");
 
 	if (scriptNum != -1) {
+		// find and check the radio button with the matching value
+		for (var i = 0; i < radButton.length; i++) {
+			if (radButton[i].value == choice) {
+				radButton[i].checked = true;
+			} // if
+		} // for i
+	
 		if (choice == scriptNum) {
 			if (numMemory != choice) {
 				numCorrect++;
