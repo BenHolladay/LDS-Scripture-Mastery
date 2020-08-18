@@ -65,7 +65,7 @@ td.odd {
 	white-space: nowrap;
 	font-size: 30px;
 	cursor: pointer;
-	border-radius: 25px;
+	border-radius: 15px;
 }
 td.even {
 	height: 60px;
@@ -74,7 +74,7 @@ td.even {
 	white-space: nowrap;
 	font-size: 30px;
 	cursor: pointer;
-	border-radius: 25px;
+	border-radius: 15px;
 }
 th.odd {
 	background-color: #2051a9;
